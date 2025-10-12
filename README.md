@@ -1,5 +1,4 @@
-#Assessing the Visual Fidelity of Deepfake Videos
-# Video Fidelity Score (VFS) — MATLAB + Python
+# Assessing the Visual Fidelity of Deepfake Videos: Video Fidelity Score (VFS) 
 
 This repository provides a **reproducible** pipeline to compute the **Video Fidelity Score (VFS)** for a **single real** and a **single fake** video.  
 The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real vs fake to yield VFS.
