@@ -18,12 +18,4 @@ sccprj/
 # Outputs
 OUT_pair/
 outputs/
-*.csv
-*.png
-*.jpg
-*.jpeg
 
-# Videos (büyük dosyalar repoya koyma; örnek küçük dosyalar için LFS)
-*.mp4
-*.avi
-*.mov
