@@ -4,7 +4,7 @@ This repository provides a **reproducible** pipeline to compute the **Video Fide
 The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real vs fake to yield VFS.
 
 > **Intuition:** Lower VFS means the fake video is **visually closer** to its pristine source (i.e., higher realism).  
-> Our pipeline implements the three stages: pre-processing (face crops and resize), NR-IQA scoring, and effect-size based VFS. :contentReference[oaicite:0]{index=0}
+> Our pipeline implements the three stages: pre-processing (face crops and resize), NR-IQA scoring, and effect-size based VFS.
 
 ---
 ## 📌 Overview
