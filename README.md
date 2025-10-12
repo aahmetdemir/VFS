@@ -35,5 +35,5 @@ The sample videos and example frames provided in this repository are derived fro
 > In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 1–11.  
 > [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
 
-All visual examples and cropped faces included here are used **only for research and educational purposes**, following the dataset’s original license and terms of use.
+All visual examples, videos and cropped faces included here are used **only for research and educational purposes**, following the dataset’s original license and terms of use.
 
