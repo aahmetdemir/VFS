@@ -11,7 +11,7 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
 
 ![VFS pipeline](assets/Proposed_Diagram.png)
 
-*Figure:* Illustration of the proposed method. The VFS score is calculated by measuring the distributional difference in NR-IQA scores between fake and source videos. :contentReference[oaicite:1]{index=1}
+*Figure:* Illustration of the proposed method. The VFS score is calculated by measuring the distributional difference in NR-IQA scores between fake and source videos.
 
 ---
 
@@ -23,4 +23,4 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
    
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
 
-*Figure:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS scores computed via MANIQA. :contentReference[oaicite:2]{index=2}
+*Figure:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS scores computed via MANIQA.
