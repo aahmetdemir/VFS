@@ -18,7 +18,9 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
 ## 🚀 Quick Start
 
 1. **Clone** this repo and prepare your environment (MATLAB + Python).  
-2. **Place one real** and **one fake** video (see paths below).  
-3. **Run** the example MATLAB script.
+2. **Place one real** and **one fake** video.  
+3. **Run** the main.m .
+   
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
+
 *Figure:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS scores computed via MANIQA. :contentReference[oaicite:2]{index=2}
