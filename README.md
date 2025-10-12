@@ -24,3 +24,16 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
 
 *Figure 2:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS scores computed via MANIQA.
+
+
+### Dataset Acknowledgement
+
+The sample videos and example frames provided in this repository are derived from the **FaceForensics++** dataset.
+
+> Rössler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Nießner, M. (2019).  
+> *FaceForensics++: Learning to detect manipulated facial images.*  
+> In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 1–11.  
+> [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
+
+All visual examples and cropped faces included here are used **only for research and educational purposes**, following the dataset’s original license and terms of use.
+
