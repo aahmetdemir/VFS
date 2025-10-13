@@ -75,6 +75,13 @@ Experiments were tested on:
 3. **Run** the main.m .
 
 ### Example Usage (MATLAB)
+
+To install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ```matlab
 addpath('path/to/codes/folder');
 
