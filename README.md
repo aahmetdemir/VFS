@@ -3,7 +3,7 @@
 This repository provides a **reproducible** pipeline to compute the **Video Fidelity Score (VFS)** for a **single real** and a **single fake** video.  
 The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real vs fake to yield VFS.
 
-> **Intuition:** Lower VFS means the fake video is **visually closer** to its pristine source (i.e., higher realism).  
+> **Intuition:** Lower VFS values indicatehigher **visual quality**, with VFS=0 suggesting the fake video exhibits no visible difference from the pristine video.
 
 ---
 ## 📌 Overview
@@ -12,8 +12,28 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
 
 *Figure 1:* Illustration of the proposed method. The VFS score is calculated by measuring the distributional difference in NR-IQA scores between fake and real videos.
 
+The pipeline follows three major steps:
+1. **Pre-processing** – Extract face crops from both videos using a dlib frontal face detector with padding and resize.  
+2. **Quality Assessment** – Compute NR-IQA metrics: BRISQUE and deep models (LIQE, MANIQA, MUSIQ, DBCNN, TReS).  
+3. **VFS Computation** – Compute standardized effect size (|Cohen’s d|) per metric to quantify perceptual similarity.
 
 ---
+
+## 🧩 Dataset Information
+
+The example real and fake videos used in this repository are derived from the **FaceForensics++** dataset.
+
+> **Citation:**  
+> Rössler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Nießner, M. (2019).  
+> *FaceForensics++: Learning to detect manipulated facial images.*  
+> *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, 1-11.  
+> [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
+
+All visual examples and cropped faces included here are used **only for research and educational purposes** in accordance with the dataset’s original license and terms of use.
+
+> **3rd-party dataset DOI/URL:** [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
+---
+
 
 ## 🚀 Quick Start
 
@@ -30,14 +50,4 @@ The provided demo pair (real and fake videos) is a subset of FaceForensics++ dat
 *Figure 2:* Facial regions from a sample frame of a real video125 and its manipulated versions, with VFS scores computed via MANIQA.
 
 
-### Dataset Acknowledgement
-
-The sample videos and example frames provided in this repository are derived from the **FaceForensics++** dataset.
-
-> Rössler, A., Cozzolino, D., Verdoliva, L., Riess, C., Thies, J., & Nießner, M. (2019).  
-> *FaceForensics++: Learning to detect manipulated facial images.*  
-> In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 1–11.  
-> [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
-
-All visual examples, videos and cropped faces included here are used **only for research and educational purposes**, following the dataset’s original license and terms of use.
 
