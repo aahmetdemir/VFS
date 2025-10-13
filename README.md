@@ -44,6 +44,12 @@ All visual examples and cropped faces included here are used **only for research
 
 ## ⚙️ Requirements
 
+To install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 🛠 Computing Infrastructure
 
 Experiments were tested on:
@@ -75,12 +81,6 @@ Experiments were tested on:
 3. **Run** the main.m .
 
 ### Example Usage (MATLAB)
-
-To install the Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ```matlab
 addpath('path/to/codes/folder');
