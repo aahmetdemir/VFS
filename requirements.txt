@@ -9,18 +9,18 @@
 # Tested on Python 3.8–3.10 (Anaconda environment)
 
 # Core dependencies
-numpy>=1.26.0
-opencv-python>=4.9.0
-dlib==19.24.2
+numpy>=1.26.3
+opencv-python>=4.10.0.84
+dlib==19.24.6
 
 # Deep IQA framework (for LIQE, MANIQA, MUSIQ, DBCNN)
-pyiqa>=0.1.8
-torch>=2.0.0
-torchvision>=0.15.0
+pyiqa>=0.1.13
+torch>=2.5.1
+torchvision>=0.20.1
 
 # Optional utilities
-scipy>=1.10.0        # for potential metric backends
-tqdm>=4.65.0         # progress display if used interactively
+scipy>=1.13.1       # for potential metric backends
+tqdm>=4.67.1        # progress display if used interactively
 
 # OS-specific note:
 #   On Windows: dlib requires CMake and Visual Studio Build Tools.
