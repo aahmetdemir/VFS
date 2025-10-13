@@ -55,7 +55,7 @@ Experiments were tested on:
 
 | Environment | Package / Toolbox | Version / Notes |
 |--------------|------------------|-----------------|
-| MATLAB | Image Processing Toolbox | R2023+ |
+| MATLAB | Image Processing Toolbox | R2024+ |
 | MATLAB | Computer Vision Toolbox | — |
 | Python | `python` | 3.8+ |
 | Python | `dlib` | 19.24.2 |
