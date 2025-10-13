@@ -34,6 +34,30 @@ All visual examples and cropped faces included here are used **only for research
 > **3rd-party dataset DOI/URL:** [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
 ---
 
+## ⚙️ Requirements
+
+🛠 Computing Infrastructure
+
+Tests performed on:
+- Windows 10 (x64) and Ubuntu 24.04 LTS  
+- MATLAB R2024a, Python 3.8 (Anaconda environment)
+- **Hardware:** NVIDIA GPU (optional), 8 GB RAM minimum 
+
+**Software dependencies**
+
+| Environment | Package / Toolbox | Version / Notes |
+|--------------|------------------|-----------------|
+| MATLAB | Image Processing Toolbox | R2023+ |
+| MATLAB | Computer Vision Toolbox | — |
+| Python | `python` | 3.8+ |
+| Python | `dlib` | 19.24.2 |
+| Python | `opencv-python` | 4.9.0+ |
+| Python | `numpy` | 1.26+ |
+| Python | (optional deep IQA libs) | e.g., `pyiqa`, `torch` |
+| Git | (for reproducibility) | latest |
+
+---
+
 
 ## 🚀 Quick Start
 
