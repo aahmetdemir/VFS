@@ -1,9 +1,9 @@
 # Assessing the Visual Fidelity of Deepfake Videos: Video Fidelity Score (VFS) 
 
 This repository provides a **reproducible** pipeline to compute the **Video Fidelity Score (VFS)** for a **single real** and a **single fake** video.  
-The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real vs fake to yield VFS.
+The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real and fake to yield VFS.
 
-> **Intuition:** Lower VFS values indicatehigher **visual quality**, with VFS=0 suggesting the fake video exhibits no visible difference from the pristine video.
+> **Intuition:** Lower VFS values indicate higher **visual quality**, with VFS≈0 suggesting the fake video exhibits no visible difference from the pristine video.
 
 ---
 ## 📌 Overview
@@ -38,10 +38,10 @@ All visual examples and cropped faces included here are used **only for research
 
 🛠 Computing Infrastructure
 
-Tests performed on:
+Experiments were tested on:
 - Windows 10 (x64) and Ubuntu 24.04 LTS  
 - MATLAB R2024a, Python 3.8 (Anaconda environment)
-- **Hardware:** NVIDIA GPU (optional), 8 GB RAM minimum 
+- **Hardware:** NVIDIA RTX 1080 TI GPU (optional), 8 GB RAM minimum 
 
 **Software dependencies**
 
@@ -64,6 +64,23 @@ Tests performed on:
 1. **Clone** this repo and prepare your environment (MATLAB + Python).  
 2. **Place one real** and **one fake** video.  
 3. **Run** the main.m .
+
+### Example Usage (MATLAB)
+```matlab
+addpath('path/to/codes/folder');
+
+realVideo = 'example_videos/real/video125.mp4';
+fakeVideo = 'example_videos/fake/video125_038.mp4';
+outDir    = 'results/';
+
+pythonPath   = 'path/to/anaconda/envs/matlab_env/python';
+pyScriptsDir = 'path/to/vfs/python/metrics';
+
+metrics       = {'BRISQUE','LIQE','MANIQA','MUSIQ','DBCNN','TRES'};
+functionTypes = {'matlab','python','python','python','python','python'};
+
+pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functionTypes);
+```
 
 The provided demo pair (real and fake videos) is a subset of FaceForensics++ dataset.
 ⚠️ Note: The example data in `example_videos/` originates from FaceForensics++ and is subject to its dataset license.
