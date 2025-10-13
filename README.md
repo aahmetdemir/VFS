@@ -3,9 +3,12 @@
 This repository provides a **reproducible** pipeline to compute the **Video Fidelity Score (VFS)** for a **single real** and a **single fake** video.  
 The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real and fake to yield VFS.
 
-> **Intuition:** Lower VFS values indicate higher **visual quality**, with VFS≈0 suggesting the fake video exhibits no visible difference from the pristine video.
+> **Intuition:** Lower VFS values indicate higher **visual quality**, with VFS ≈ 0 suggesting the fake video exhibits no visible difference from the pristine video.
+
 
 ---
+
+
 ## 📌 Overview
 
 ![VFS pipeline](assets/Proposed_Diagram.png)
@@ -17,7 +20,9 @@ The pipeline follows three major steps:
 2. **Quality Assessment** – Compute NR-IQA metrics: BRISQUE and deep models (LIQE, MANIQA, MUSIQ, DBCNN, TReS).  
 3. **VFS Computation** – Compute standardized effect size (|Cohen’s d|) per metric to quantify perceptual similarity.
 
+
 ---
+
 
 ## 🧩 Dataset Information
 
@@ -32,7 +37,10 @@ The example real and fake videos used in this repository are derived from the **
 All visual examples and cropped faces included here are used **only for research and educational purposes** in accordance with the dataset’s original license and terms of use.
 
 > **3rd-party dataset DOI/URL:** [https://github.com/ondyari/FaceForensics](https://github.com/ondyari/FaceForensics)
+
+
 ---
+
 
 ## ⚙️ Requirements
 
@@ -41,7 +49,7 @@ All visual examples and cropped faces included here are used **only for research
 Experiments were tested on:
 - Windows 10 (x64) and Ubuntu 24.04 LTS  
 - MATLAB R2024a, Python 3.8 (Anaconda environment)
-- **Hardware:** NVIDIA RTX 1080 TI GPU (optional), 8 GB RAM minimum 
+- **Hardware:** Intel i7 CPU or higher, 8 GB RAM minimum, optional NVIDIA GPU (e.g., RTX 1080 Ti)
 
 **Software dependencies**
 
@@ -55,6 +63,7 @@ Experiments were tested on:
 | Python | `numpy` | 1.26+ |
 | Python | (optional deep IQA libs) | e.g., `pyiqa`, `torch` |
 | Git | (for reproducibility) | latest |
+
 
 ---
 
@@ -80,10 +89,9 @@ metrics       = {'BRISQUE','LIQE','MANIQA','MUSIQ','DBCNN','TRES'};
 functionTypes = {'matlab','python','python','python','python','python'};
 
 pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functionTypes);
-> The output folder will contain `real_iqm.csv`, `fake_iqm.csv`, and `vfs_summary.csv`.
 ```
-
-The provided demo pair (real and fake videos) is a subset of FaceForensics++ dataset.
+> The output folder will contain `real_iqm.csv`, `fake_iqm.csv`, and `vfs_summary.csv`.
+> The provided demo pair (real and fake videos) is a subset of FaceForensics++ dataset.
 ⚠️ Note: The example data in `example_videos/` originates from FaceForensics++ and is subject to its dataset license.
 
 
@@ -91,5 +99,12 @@ The provided demo pair (real and fake videos) is a subset of FaceForensics++ dat
 
 *Figure 2:* Facial regions from a sample frame of a real video125 and its manipulated versions, with VFS scores computed via MANIQA.
 
+---
+
+
+## 📚 License & Citation
+
+**Code License:** MIT License  
+**Dataset License:** FaceForensics++ dataset license (see link above)
 
 
