@@ -1,0 +1,27 @@
+# ==============================================
+# VFS Pair Pipeline - Python Dependencies
+# ==============================================
+# This file lists all Python packages required to run:
+# - pair_extract_faces.py
+# - liqe_score.py, maniqa_score.py, musiq_score.py, dbcnn_score.py
+# You can install them via:
+#     pip install -r requirements.txt
+# Tested on Python 3.8–3.10 (Anaconda environment)
+
+# Core dependencies
+numpy>=1.26.0
+opencv-python>=4.9.0
+dlib==19.24.2
+
+# Deep IQA framework (for LIQE, MANIQA, MUSIQ, DBCNN)
+pyiqa>=0.1.8
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional utilities
+scipy>=1.10.0        # for potential metric backends
+tqdm>=4.65.0         # progress display if used interactively
+
+# OS-specific note:
+#   On Windows: dlib requires CMake and Visual Studio Build Tools.
+#   On Ubuntu: ensure 'libgl1' and 'libopenblas-dev' are installed.
