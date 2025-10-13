@@ -64,8 +64,8 @@ Experiments were tested on:
 | MATLAB | Image Processing Toolbox | R2024+ |
 | MATLAB | Computer Vision Toolbox | — |
 | Python | `python` | 3.8+ |
-| Python | `dlib` | 19.24.2 |
-| Python | `opencv-python` | 4.9.0+ |
+| Python | `dlib` | 19.24.6 |
+| Python | `opencv-python` | 4.10.0+ |
 | Python | `numpy` | 1.26+ |
 | Python | (optional deep IQA libs) | e.g., `pyiqa`, `torch` |
 | Git | (for reproducibility) | latest |
