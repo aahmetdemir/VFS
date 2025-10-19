@@ -76,6 +76,11 @@ Experiments were tested on:
 
 ## 🚀 Quick Start
 
+All codes in this repository are executed from a single MATLAB entry point (main.m).
+The MATLAB script automatically calls the Python scripts for deep NR-IQA metrics, so users do not need to run Python separately.
+
+Once the paths to the Python environment (`pythonPath`) and metric folder (`pyScriptsDir`) are correctly set, running `main.m` will automatically execute both MATLAB- and Python-based components, generate the corresponding metric scores, and produce the final VFS output files.
+
 1. **Clone** this repo and prepare your environment (MATLAB + Python).  
 2. **Place one real** and **one fake** video.  
 3. **Run** the main.m .
