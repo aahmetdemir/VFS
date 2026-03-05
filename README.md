@@ -134,8 +134,21 @@ The following figure demonstrates facial regions extracted from sample frames of
 
 --------------------------------------------------
 
+To further investigate whether the proposed **Video Fidelity Score (VFS)** aligns with human visual perception, we conducted a human evaluation study using videos from the FaceForensics++ dataset.
 
-following
+In this experiment, videos were manually inspected across the four manipulation methods in FaceForensics++ (DeepFakes, FaceSwap, NeuralTextures, and Face2Face). Based on visual inspection, two balanced sets were curated:  
+• **50 videos with high visual realism** 
+• **50 videos with low visual realism** 
+
+The frames shown below corresponding **video IDs** and **manipulation methods**  from these selected videos. Reporting these identifiers provides transparency regarding the selected samples and confirms that the selection is distributed across all four manipulation methods rather than being concentrated within a single subset.
+
+#### Bad Set (Low Visual Realism)
+
+![Bad Set Frames](assets/50_worst_frames.png)
+
+#### Good Set (High Visual Realism)
+
+![Good Set Frames](assets/50_best_frames.png)
 
 ## 📚 License & Citation
 
