@@ -110,7 +110,7 @@ pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functi
 
 
 
-## Supplementary Figures and Experimental Materials
+## 🧑🏼‍🦲 Supplementary Figures and Experimental Materials
 
 
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
