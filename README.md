@@ -116,15 +116,17 @@ pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functi
 
 ## 🧑🏼‍🦲 Supplementary Figures and Experimental Materials
 
+The following figure illustrates facial regions extracted from video ID 125 and its manipulated versions. It shows the VFS values computed specifically using the MANIQA metric for different manipulation methods.
 
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
 
 *Figure 2:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS values computed via MANIQA.
 
 
-...
 
 
+
+The following
 
 
 
