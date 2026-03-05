@@ -122,7 +122,7 @@ The following figure illustrates facial regions extracted from video ID 125 and 
 
 *Figure 2:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS values computed via MANIQA.
 
-
+---
 
 
 
@@ -132,9 +132,10 @@ The following figure demonstrates facial regions extracted from sample frames of
 *Figure 3:* Facial regions from sample video frames in the \textit{best} (HQ) and \textit{worst} (LQ) visual realism groups for each dataset/subset, determined using the DBCNN-based approach, along with their VFS values.
 
 
-
 ---
 
+
+following
 
 ## 📚 License & Citation
 
