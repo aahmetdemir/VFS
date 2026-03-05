@@ -119,7 +119,15 @@ pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functi
 
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
 
-*Figure 2:* Facial regions from a sample frame of a real video125 and its manipulated versions, with VFS scores computed via MANIQA.
+*Figure 2:* Facial regions from a sample frame of a pristine video125 and its manipulated versions, with VFS values computed via MANIQA.
+
+
+...
+
+
+
+
+
 
 ---
 
