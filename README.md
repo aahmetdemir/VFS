@@ -145,10 +145,12 @@ The frames shown below corresponding **video IDs** and **manipulation methods** 
 #### Bad Set (Low Visual Realism)
 
 ![Bad Set Frames](assets/50_worst_frames.png)
+*Figure 4:* Representative frames from a video set labeled as having bad visual realism. (DF, FS, NTX, and F2F refer to DeepFakes, FaceSwap, NeuralTextures, and Face2Face, respectively.)
 
 #### Good Set (High Visual Realism)
 
 ![Good Set Frames](assets/50_best_frames.png)
+*Figure 5:* Representative frames from a video set labeled as having good visual realism. (DF, FS, NTX, and F2F refer to DeepFakes, FaceSwap, NeuralTextures, and Face2Face, respectively.)
 
 ## 📚 License & Citation
 
