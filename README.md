@@ -128,6 +128,7 @@ The following figure illustrates facial regions extracted from video ID 125 and 
 
 The following figure demonstrates facial regions extracted from sample frames of videos randomly selected from the *best* and *worst* groups for each deepfake dataset, determined using the DBCNN-based approach, along with their corresponding VFS values.  As shown in the figure, the proposed approach can clearly distinguish between high- and low-realism videos in each dataset,  with VFS values consistently aligning with human-perceived visual realism.
 
+![Figure S2](assets/Dbcnn_VFS_FiNAL5.pdf)
 
 
 
