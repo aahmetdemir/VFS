@@ -109,6 +109,10 @@ pair_run(realVideo, fakeVideo, outDir, pythonPath, pyScriptsDir, metrics, functi
 ⚠️ Note: The example data in `example_videos/` originates from FaceForensics++ and is subject to its dataset license.
 
 
+
+## Supplementary Figures and Experimental Materials
+
+
 ![VFS MANIQA of Video125](assets/video_125_maniqa_VFS.png)
 
 *Figure 2:* Facial regions from a sample frame of a real video125 and its manipulated versions, with VFS scores computed via MANIQA.
