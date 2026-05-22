@@ -154,6 +154,25 @@ The frames shown below corresponding **video IDs** and **manipulation methods** 
 
 ## 📚 License & Citation
 
+If you use this repository, code, or the Video Fidelity Score (VFS) method in your research, please cite our paper:
+
+> Demir A, Dirik AE, Vatansever S. 2026. Assessing the visual realism of deepfake videos: an IQA-based approach. PeerJ Computer Science 12:e3893 https://doi.org/10.7717/peerj-cs.3893
+
+### BibTeX
+
+```bibtex
+@article{demir2026vfs,
+  title={Assessing the visual realism of deepfake videos: an IQA-based approach},
+  author={Demir, Ahmet and Dirik, Ahmet Enis and Vatansever, Semih},
+  journal={PeerJ Computer Science},
+  volume={12},
+  pages={e3893},
+  year={2026},
+  doi={10.7717/peerj-cs.3893}
+}
+```
+
+
 **Code License:** MIT License  
 **Dataset License:** FaceForensics++ dataset license (see link above)
 
