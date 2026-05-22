@@ -5,6 +5,7 @@ The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQ
 
 > **Intuition:** Lower VFS values indicate higher **visual quality**, with VFS ≈ 0 suggesting the fake video exhibits no visible difference from the pristine video.
 
+For more information, please consult [Our Paper](https://doi.org/10.7717/peerj-cs.3893)
 
 ---
 
