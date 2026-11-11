@@ -1,11 +1,14 @@
 # Assessing the Visual Realism of Deepfake Videos: an IQA-Based Approach -- Video Fidelity Score (VFS) 
 
+[![Paper](https://img.shields.io/badge/Paper-PeerJ%20CS-1d3a8a)](https://doi.org/10.7717/peerj-cs.3893)
+[![Project page](https://img.shields.io/badge/Project%20page-ahmetemirdirik.github.io%2Fvfs-9b1d4a)](https://ahmetemirdirik.github.io/vfs/)
+
 This repository provides a **reproducible** pipeline to compute the **Video Fidelity Score (VFS)** for a **single real** and a **single fake** video.  
 The method extracts facial crops, computes **NR-IQA** metrics (BRISQUE + deep IQA models), and summarizes the **distributional difference** (effect size) between real and fake to yield VFS.
 
 > **Intuition:** Lower VFS values indicate higher **visual quality**, with VFS ≈ 0 suggesting the fake video exhibits no visible difference from the pristine video.
 
-For more information, please consult [Our Paper](https://doi.org/10.7717/peerj-cs.3893)
+For more information, please consult [Our Paper](https://doi.org/10.7717/peerj-cs.3893) and the [project page](https://ahmetemirdirik.github.io/vfs/).
 
 ---
 
@@ -164,7 +167,7 @@ If you use this repository, code, or the Video Fidelity Score (VFS) method in yo
 ```bibtex
 @article{demir2026vfs,
   title={Assessing the visual realism of deepfake videos: an IQA-based approach},
-  author={Demir, Ahmet and Dirik, Ahmet Enis and Vatansever, Semih},
+  author={Demir, Ahmet and Dirik, Ahmet Emir and Vatansever, Saffet},
   journal={PeerJ Computer Science},
   volume={12},
   pages={e3893},
