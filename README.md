@@ -164,7 +164,7 @@ If you use this repository, code, or the Video Fidelity Score (VFS) method in yo
 ```bibtex
 @article{demir2026vfs,
   title={Assessing the visual realism of deepfake videos: an IQA-based approach},
-  author={Demir, Ahmet and Dirik, Ahmet Enis and Vatansever, Semih},
+  author={Demir, Ahmet and Dirik, Ahmet Emir and Vatansever, Saffet},
   journal={PeerJ Computer Science},
   volume={12},
   pages={e3893},
